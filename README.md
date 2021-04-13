@@ -27,7 +27,7 @@ python main_avvp.py --mode train --audio_dir ../feats/vggish/ --video_dir ../fea
 We then freeze the trained model and evaluate each video by swapping its audio and visual tracks with other unrelated videos.
 ```shell
 cd step2_find_exchange
-python main_avvp.py --mode estimate_labels --audio_dir ../feats/vggish/ --video_dir ../feats/res152/ --st_dir ../feats/r2plus1d_18
+python main_avvp.py --mode estimate_labels --audio_dir ../feats/vggish/ --video_dir ../feats/res152/ --st_dir ../feats/r2plus1d_18 --model_save_dir ../step1_train_base_model/models/
 ```
 
 ### Re-train using modality-aware labels
@@ -38,7 +38,7 @@ python main_avvp.py --mode retrain --audio_dir ../feats/vggish/ --video_dir ../f
 ```
 
 
-If you are interested in our paper and want to access the training code, please feel free to contact us by email yu.wu-3@student.uts.edu.au
+If you are interested in our paper and want to access the training code, please feel free to contact us by emails (yu.wu-3@student.uts.edu.au).
 
 
 
