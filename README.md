@@ -38,8 +38,6 @@ python main_avvp.py --mode retrain --audio_dir ../feats/vggish/ --video_dir ../f
 ```
 
 
-If you are interested in our paper and want to access the training code, please feel free to contact us by emails (yu.wu-3@student.uts.edu.au).
-
 
 
 ## Citation
